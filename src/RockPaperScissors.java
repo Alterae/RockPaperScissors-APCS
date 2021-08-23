@@ -12,7 +12,7 @@ public class RockPaperScissors {
         int userSelection = getInput();
         int botSelection = rand.nextInt(3) + 1;
 
-        //System.out.printf("(i) Bot picked: %s%n", botSelection);
+        System.out.printf("(i) Bot picked: %s%n", botSelection);
 
         switch (userSelection) {
             case ROCK:
