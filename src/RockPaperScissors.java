@@ -43,9 +43,9 @@ public class RockPaperScissors {
     }
 
     /**
-     * Gets a year from the user.
+     * Gets a selection from the user.
      *
-     * @return The entered year.
+     * @return 1, 2, or 3.
      */
     private static int getInput() {
         try {
